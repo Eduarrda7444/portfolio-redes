@@ -1,10 +1,10 @@
-# 🌐 Lab 01: VPN IPsec Site-to-Site (Brasil - Japão)
+# Lab 01: VPN IPsec Site-to-Site (Brasil - Japão)
 
 Projeto prático no **Cisco Packet Tracer** simulando a interconexão segura de duas filiais (Brasil e Japão) através de um túnel de VPN IPsec sobre uma infraestrutura pública de Provedor de Internet.
 
 ---
 
-## 📐 Topologia e Endereçamento
+## Topologia e Endereçamento
 
 * **Site Brasil (LAN Privada):** `192.168.1.0/24` | **Gateway:** `192.168.1.1` | **PC0:** `192.168.1.10`
 * **Site Japão (LAN Privada):** `10.0.0.0/24` | **Gateway:** `10.0.0.1` | **PC1:** `10.0.0.10`
@@ -13,7 +13,7 @@ Projeto prático no **Cisco Packet Tracer** simulando a interconexão segura de 
 
 ---
 
-## 🛠️ Scripts de Configuração (Cisco IOS)
+## Scripts de Configuração (Cisco IOS)
 
 ### 1. Roteador Brasil (`RT-BR`)
 
@@ -87,7 +87,7 @@ end
 write memory
 ```
 
-## 🧪 Testes de Validação
+## Testes de Validação
 
 Executados a partir do **PC0 (Brasil)** para o **PC1 (Japão - `10.0.0.10`)**:
 
