@@ -6,4 +6,3 @@ Bem-vindo ao meu repositório de laboratórios e projetos práticos de redes de 
 
 ## Ferramentas & Tecnologias
 * **Simulador:** Cisco Packet Tracer
-* **Conceitos & Protocolos:** IPv4, VPN IPsec, ACLs, Roteamento, Criptografia e Segurança em Redes.
